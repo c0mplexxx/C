@@ -12,7 +12,7 @@ int main()
     fahr = lower;
     while (fahr <= upper){
         celsius = 5 * (fahr - 32) /9; // Ebu jestko kak Buryat
-        printf(fahr, celsius);
+        printf("%d\t%d\n", fahr, celsius);
         fahr+=step;   
     }
 
